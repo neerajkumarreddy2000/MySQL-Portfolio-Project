@@ -140,16 +140,19 @@ $ total = VAT + COGS\\= 16.0265 + 320.53 = $336.5565$
 
 For the rest of the code, check the 
 
-'''
+``` sql
+-- Create the database
 CREATE DATABASE walmartSales;
 
+-- Switch to the created database
 USE walmartsales;
 
-show tables;
--- Create table
+-- Show tables in the current database
+SHOW TABLES;
 
+-- Create the 'sales' table
 CREATE TABLE sales(
-	invoice_id VARCHAR(30) PRIMARY KEY,
+    invoice_id VARCHAR(30) PRIMARY KEY,
     branch VARCHAR(5) NOT NULL,
     city VARCHAR(30) NOT NULL,
     customer_type VARCHAR(30) NOT NULL,
@@ -167,4 +170,5 @@ CREATE TABLE sales(
     gross_income DECIMAL(12, 4),
     rating FLOAT(2, 1)
 );
-'''
+
+
