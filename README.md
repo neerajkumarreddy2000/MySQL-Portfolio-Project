@@ -138,7 +138,7 @@ $ total = VAT + COGS\\= 16.0265 + 320.53 = $336.5565$
 
 ## Code
 
-For the rest of the code, check the 
+For the rest of the code, check the https://github.com/neerajkumarreddy2000/PROJECT-2/blob/main/SQL_QUERIES.sql
 
 ``` sql
 -- Create the database
